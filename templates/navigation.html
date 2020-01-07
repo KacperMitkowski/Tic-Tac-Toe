@@ -1,0 +1,43 @@
+<nav class="navbar navbar-dark navbar-color navbar-expand-md">
+    <a href="{{ url_for('index')}}" class="navbar-brand">
+        <img src="{{ url_for('static', filename='img/logo.png')}}" width="30" height="30" alt=""
+             class="d-inline-block mr-3 align-bottom"/>
+        Toe Tac Toe
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
+            aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main_menu">
+
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+                <a href="{{ url_for('index')}}" class="nav-link">Start</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ url_for('show_winners') }}" class="nav-link">List of winners</a>
+            </li>
+
+            <li class="navbar-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                   aria-expanded="false" id="submenu" aria-haspopup="true">
+                    Contact
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="submenu">
+
+                    <a class="dropdown-item" href="https://www.facebook.com/" target="_blank">My website</a>
+                    <a class="dropdown-item" href="https://www.facebook.com/" target="_blank">Socials</a>
+
+                </div>
+            </li>
+
+        </ul>
+
+
+    </div>
+</nav>

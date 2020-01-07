@@ -1,0 +1,128 @@
+body {
+    background-color: darksalmon;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-color {
+    background-color: #133553;
+}
+
+.game_header {
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#error_message {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.player_dot {
+    height: 25px;
+    width: 25px;
+    background-color: #133553;
+    border-radius: 50%;
+}
+
+.computer_dot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.card_to_play {
+    cursor: pointer;
+}
+
+.card_to_play:hover {
+    background-color: #ccc;
+}
+
+input[type=text] {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+}
+
+input[type=button] {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    background-color: #133553;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+input[type=button]:hover {
+    transform: scale(1.1);
+}
+
+input[type=button]:focus {
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+}
+
+#clock {
+    width: 450px;
+    padding-right: 15%;
+    font-size: 30px;
+}
+
+#turn_counter {
+    width: 450px;
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+#nick_to_display {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+/* https://eddyerburgh.me/make-responsive-tic-tac-toe-board */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+td {
+    width: 33.333%;
+    border: 6px solid #222;
+}
+
+td::after {
+    content: "";
+    display: block;
+    margin-top: 70%;
+}
+
+
+
+
