@@ -5,6 +5,7 @@ It's a paper-and-pencil game for two players, X and O, who take turns marking th
 
 ## About project:
 The project was created during my education in Codecool.<br/>
+
 **The goal was to:** 
 * use Flask to create a simple web server
 * practice front-end skills: 
