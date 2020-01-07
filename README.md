@@ -23,7 +23,9 @@ The project was created during my education in Codecool.<br/>
 * CSS
 
 ## Screenshots:
-
+Start screen: <br />
 ![alt text](https://github.com/KacperMitkowski/Tic-Tac-Toe/blob/master/screenshots/tic_1.png)
+The game: <br />
 ![alt text](https://github.com/KacperMitkowski/Tic-Tac-Toe/blob/master/screenshots/tic_2.png)
+List of winners: <br />
 ![alt text](https://github.com/KacperMitkowski/Tic-Tac-Toe/blob/master/screenshots/tic_3.png)
